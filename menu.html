@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Al Arabian Mandi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Our Menu</h1>
+  <div class="menu-container">
+    <div class="menu-item">
+      <img src="images/mandi.jpg" alt="Chicken Mandi">
+      <h3>Chicken Mandi</h3>
+      <p>₹350</p>
+      <button onclick="addToCart('Chicken Mandi', 350)">Add to Cart</button>
+    </div>
+    <div class="menu-item">
+      <img src="images/mutton.jpg" alt="Mutton Mandi">
+      <h3>Mutton Mandi</h3>
+      <p>₹480</p>
+      <button onclick="addToCart('Mutton Mandi', 480)">Add to Cart</button>
+    </div>
+  </div>
+  <br>
+  <button onclick="window.location.href='cart.html'" class="btn">Go to Cart</button>
+  <script src="app.js"></script>
+</body>
+</html>
